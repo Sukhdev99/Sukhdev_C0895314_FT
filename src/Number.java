@@ -12,4 +12,7 @@ public class Number extends ArithmeticExp{
 
         return value;
     }
+    public String toString() {
+        return Integer.toString(value);
+    }
 }

@@ -10,5 +10,8 @@ public abstract class Binary extends ArithmeticExp{
         this.right = right;
         this.opp = opp;
     }
+    public String toString() {
+        return left.toString() + " " + opp + " " + right.toString();
+    }
 
 }

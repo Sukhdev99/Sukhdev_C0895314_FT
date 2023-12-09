@@ -10,7 +10,7 @@ public class Main {
                         new Number(5)
                 )
         );
-
+        System.out.println("Expression: " + term.toString());
         System.out.println("Result: " + evaluate(term));
 }
 
