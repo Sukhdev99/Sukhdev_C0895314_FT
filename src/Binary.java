@@ -1,8 +1,9 @@
 public abstract class Binary extends ArithmeticExp{
 
-    public ArithmeticExp left;
+    protected ArithmeticExp left;
 
-    public ArithmeticExp right;
+    protected ArithmeticExp right;
+
 
     public Binary(ArithmeticExp left, ArithmeticExp right){
         this.left = left;
